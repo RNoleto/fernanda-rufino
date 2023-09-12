@@ -12,13 +12,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
 }
 
-// BASE
+h1 {
+  margin: 0 !important;
+}
 
-.container {
+// ========== BASE ========== //
+.content {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: red;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
 }
